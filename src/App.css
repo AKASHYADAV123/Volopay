@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.bc{
+  background-color: #042361c7;
+  align-items: center;  
+  padding-bottom: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h{ 
+  display: flex;
+  justify-content: flex-end; 
+  background-color: #1e045aa1;
+  margin-bottom: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.s{  
+  background-color: #26076e83;
+  height:20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.s1{
+  height:27px;
+}
+.s2{
+  display: flex;
+  justify-content: flex-start !important;  
+  margin-right: 990px;
+  height:27px;
+}
+.fl{
+  display: flex;
+  flex-direction: row;
+  margin:4px;
+  margin-top: 4px;
+  margin-left: 200px;  
+}
+.fll{
   display: flex;
   flex-direction: column;
+}
+.box1{
+  height:50vh;
+  width:71vh;  
+  margin-right: 4px;
+}
+.box11,.box21{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  background-color: #5D76A9;
+}
+.box11{ 
+  align-items: baseline;  
+  height: 30vh;
+  margin-top: -20vh;   
+  margin-right: 4px;
+  max-width: 442.5px !important;    
+  z-index: +1;
+}
+.doughnut{
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px; 
+  padding-left: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.d1 {
+  margin-top: 2px;
+  border: 3px solid white;
+  border-radius: 100px;
+  height: 4px;
+  width: 4px;  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box21{
+  height: 30vh;
+  margin-top: -20vh;
+  width:35vh;  
+  margin-right: 4px;  
+  z-index: +2;
+}
+.b1{
+  height:312.5px;
+  width:442.5px;
+}
+.box2{
+  height:50vh;
+  width:35vh;  
+  margin-right: 4px;
+}
+.b2{
+  height:50vh;
+  width:35vh;
+}
+h4{
+  color:white;
+  margin-left: 20px;
+}
+p{
+  color:white;
+  margin-left: 20px;
+}
+.card{
+  margin-top: -20px;
+  overflow:hidden;
+}
+.sn{
+  font-size: small;
+  margin-left: 8px;  
+}
+.ct{
+  height:30px;
+  width:20px;
+  margin-left: 20px;
+  z-index: +2;
+  background-color:#5D76A9;
+}
+.f1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+.ct1{
+  height:20px;
+  width:20px;
+  margin-left: 20px;
+  z-index: +2;
+  background-color:#5D76A9;
 }
