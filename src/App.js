@@ -14,14 +14,17 @@ import e from "./5.png";
 import f from "./6.png";
 
 function App() {
-  return (
-    <div className="bc">
+  return (  
+    <body>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <div className="bc">      
       <div className="h">
         <img className="s2" src={a11}></img>
         <input className="s"></input>
         <img className="s1" src={a10}></img>
       </div>
 
+      <div className="flr">
       <div className="fl">
         <div className="fll">
           <div className="box1">
@@ -56,7 +59,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d2"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -79,7 +82,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d3"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -105,7 +108,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d4"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -128,7 +131,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d5"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -151,7 +154,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d6"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -174,7 +177,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d7"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -204,7 +207,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d8"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -227,7 +230,7 @@ function App() {
           </div>
           <div className="box21">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d9"></div>
               <p className="sn">Library Update</p>
             </div>
             <div className="card">
@@ -250,7 +253,7 @@ function App() {
           </div>
           <div className="box11">
             <div class="doughnut">
-              <div class="d1"></div>
+              <div class="d10"></div>
               <p className="sn">Library Update</p>
             </div>
 
@@ -272,9 +275,11 @@ function App() {
 
 
       </div>
-
+    
+    </div>
 
     </div>
+    </body>
   );
 }
 
